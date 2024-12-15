@@ -14,7 +14,7 @@ const posts = [
 
 function BlogList() {
     return (
-        <div className="p-4 mx-5">
+      <div className="p-4 md:p-6 mx-5">
   <h1 className="text-2xl sm:text-3xl font-semibold mb-6">All posts</h1>
   <div className="space-y-8">
     {posts.map((post, index) => (

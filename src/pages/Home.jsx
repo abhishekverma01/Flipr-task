@@ -82,12 +82,12 @@ const Home = () => (
       <AuthorCard AuthorsData={Authors} />
     </div>
 
-    <div className="flex flex-col sm:flex-row md:flex-row gap-5 sm:gap-0 md:gap-0 lg:gap-16  pl-14 items-center mt-14 mb-6">
-      <div className="text-left">
-        <p className="text-gray-400">We Are</p>
-        <h4 className="text-2xl">Featured in</h4>
+    <div className="flex px-8 md:pl-14 flex-col sm:flex-row md:flex-row gap-5 sm:gap-0 md:gap-2 lg:gap-12 mt-14 mb-6">
+      <div className="">
+        <p className="text-gray-400 font-bold text-1xl">We Are</p>
+        <h4 className="text-2xl font-bold">Featured in</h4>
       </div>
-      <div className="flex items-center justify-center gap-8 sm:gap-0 sm:justify-between flex-wrap sm:w-[80%] w-[100%]">
+      <div className="flex items-center md:items-end md:pb-2 flex-wrap gap-4 md:gap-0 sm:gap-0 sm:justify-between flex-wrap sm:w-[80%] w-[100%]">
       <img src={Logo1} alt="Logo1" className="sm:w-[15%] w-[90px]" />
       <img src={Logo2} alt="Logo2" className="sm:w-[15%] w-[90px]" />
       <img src={Logo3} alt="Logo3" className="sm:w-[15%] w-[90px]" />

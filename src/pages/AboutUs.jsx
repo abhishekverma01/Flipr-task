@@ -97,16 +97,16 @@ function AboutUs() {
             </div>
           </div>
           <div className="flex flex-row-reverse md:bottom-[123px] justify-center relative pl-24 md:pl-40 sm:relative md:right-2 right-8 bottom-28 ">
-  <img 
-    src={shape} 
-    alt="Shape" 
-  />
-  <img 
-    src={shape1} 
-    alt="Shape 1" 
-    className="md:w-72 w-16"
-  />
-</div>
+            <img 
+              src={shape} 
+              alt="Shape" 
+            />
+            <img 
+              src={shape1} 
+              alt="Shape 1" 
+              className="md:w-72 w-16"
+            />
+          </div>
           
         </section>
 

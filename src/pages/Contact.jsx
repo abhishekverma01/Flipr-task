@@ -27,7 +27,7 @@ function Contact() {
       </div>
     </div>
     <form className="mt-6 space-y-4">
-      <input type="text" placeholder="Full Name" className="w-full p-3 border border-gray-300" />
+      <input type="text" placeholder="Full Name" className="w-full p-3 focus:outline-none focus:ring-2 focus:ring-yellow-400 border border-gray-300" />
       <input type="email" placeholder="Your Email" className="w-full p-3 border border-gray-300" />
       <select className="w-full p-3 border border-gray-300">
         <option>Query Related</option>

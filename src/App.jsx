@@ -9,9 +9,13 @@ import Author from './pages/Author';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import BlogPost from './pages/BlogPost';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  
+
+AOS.init();
+
 
   return (
     <Router>

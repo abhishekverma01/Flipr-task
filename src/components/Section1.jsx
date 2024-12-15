@@ -3,7 +3,7 @@ import shape from "../assets/Client-First-IMAGES/shape.svg";
 function Section1() {
   return (
     <>
-    <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 ml-8">
+    <div className="flex flex-col items-center justify-center pr-4 sm:px-6 lg:px-8 ml-8">
   {/* Shape Images */}
 <div className="flex justify-center relative pl-24 md:pl-40 sm:relative right-8 sm:right-0 md:right-14 lg:right-4">
   <img 

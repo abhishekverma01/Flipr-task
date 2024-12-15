@@ -16,7 +16,7 @@ export const defaultCategories = [
 ];
 const Blog = () => (
   <div>
-    <div className="p-10 bg-backgroundSoft flex flex-col-reverse lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-6">
+  <div className="p-10 md:p-14 bg-backgroundSoft flex flex-col-reverse lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-6">
   <div className="flex-1">
     <p className="text-sm text-gray-500 uppercase">Featured Post</p>
     <h2 className="text-2xl font-bold text-gray-900 mt-2">Step-by-step guide to choosing great font pairs</h2>

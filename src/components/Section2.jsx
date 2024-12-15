@@ -3,11 +3,11 @@ import left from "../assets/Client-First-icons/left-arrow.svg";
 import profileImg from "../assets/Client-First-IMAGES/Image.svg";
 function Section2() {
   return (
-    <div className="flex w-full px-4 sm:px-6 lg:px-8">
-      <div className="bg-[#fdf6e4] p-6 sm:p-8 lg:p-12 rounded-lg shadow-lg w-full flex flex-col lg:flex-row my-10">
+    <div className="flex sm:px-6 lg:px-8">
+      <div className="bg-[#fdf6e4] sm:p-8 lg:p-12 rounded-lg shadow-lg w-full flex flex-col lg:flex-row my-10">
         <div className="flex flex-col lg:flex-row w-full">
           {/* Left Section */}
-          <div className="lg:p-16 p-6 lg:border-r border-gray-300 w-full lg:w-2/3 mb-6 lg:mb-0">
+          <div className="lg:p-16 p-4 lg:border-r border-gray-300 w-full lg:w-2/3 lg:mb-0">
             <h4 className="text-sm text-gray-600 mb-2">TESTIMONIALS</h4>
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 lg:w-56">
               What people say about our blog
@@ -19,7 +19,7 @@ function Section2() {
           </div>
 
           {/* Right Section */}
-          <div className="lg:p-16 p-6 w-full">
+          <div className="lg:p-16 p-4">
             <p className="text-base sm:text-lg lg:text-xl mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

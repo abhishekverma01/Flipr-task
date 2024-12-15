@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-<nav className="bg-gray-800 px-16 py-4 flex justify-between items-center text-white">
+<nav className="bg-gray-800 px-6 sm:px-16 py-4 flex justify-between items-center text-white">
 <div className="text-2xl font-bold">&#123;Finsweet</div>
 
       {/* Hamburger Icon */}
